@@ -47,3 +47,20 @@ main {
   border: 1px solid #38bdf8;
   border-radius: 4px;
 }
+
+
+.cta-button {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 12px 28px;
+  background-color: #38bdf8;
+  color: #1f2937;
+  border-radius: 6px;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.cta-button:hover {
+  background-color: white;
+}
