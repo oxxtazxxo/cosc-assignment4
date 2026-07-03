@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import About from "./pages/Dashboard";
-import Contact from "./pages/Team";
+import Dashboard from "./pages/Dashboard";
+import Team from "./pages/Team";
 
-// replaced the entire app.js since it wasn't necesssary
+// replaced the entire app.js since it wasn't necessary
 // Browser router turns the app into a single page app.
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<Dashboard />} />
-        <Route path="/contact" element={<Team />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/team" element={<Team />} />
       </Routes>
     </BrowserRouter>
   );
