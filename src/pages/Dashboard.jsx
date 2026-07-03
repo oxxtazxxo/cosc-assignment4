@@ -2,8 +2,8 @@ import GameList from '../components/GameList'
 import { useState, useEffect } from 'react'
 
 function Dashboard() {
-  // Must be empty before you push to the repo, get your own API key from rawg.io
-  const API_KEY=''
+
+  const API_KEY='3fd058d792484392997db535625ae3d8'
 
   const [games, setGames] = useState([]);
   const [loading, setLoading] = useState(true);
