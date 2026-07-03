@@ -30,3 +30,20 @@
 main {
   padding: 32px;
 }
+
+.dashboard h1 {
+  margin: 16px;
+}
+
+.games-block{
+  margin:16px;
+  border: 1px solid #38bdf8;
+  border-radius: 4px;
+}
+
+.game-block{
+  margin:16px;
+  padding: 16px;
+  border: 1px solid #38bdf8;
+  border-radius: 4px;
+}
