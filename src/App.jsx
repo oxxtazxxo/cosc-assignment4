@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
 import Team from "./pages/Team";
+import "./App.css";
 
 // replaced the entire app.js since it wasn't necessary
 // Browser router turns the app into a single page app.
