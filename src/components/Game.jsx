@@ -1,4 +1,4 @@
-const Game = ({ key, game }) => {
+const Game = ({ game }) => {
     const date = new Date(game.released).toLocaleDateString('en-US', {
         month: 'long',
         day: 'numeric',
