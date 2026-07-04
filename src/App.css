@@ -32,20 +32,47 @@ main {
 }
 
 .dashboard h1 {
+  text-align: center;
   margin: 16px;
 }
 
 .games-block{
   margin:16px;
-  border: 1px solid #38bdf8;
+  height: 100%;
   border-radius: 4px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 1.5rem;
 }
 
 .game-block{
   margin:16px;
-  padding: 16px;
   border: 1px solid #38bdf8;
   border-radius: 4px;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.game-thumbnail-wrapper{
+  width: 100%;
+  aspect-ratio: 16/9;
+  overflow:hidden;
+}
+
+.game-thumbnail-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.game-info-block{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 16px;
 }
 
 
