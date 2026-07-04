@@ -11,10 +11,10 @@ Game Vault is a React application created for COSC Assignment 4. This project de
 - Team collaboration using GitHub
 
 ## Team Members
-- Alyssa Scott 
-- Lucas Brown
-- Grayson Siver
-- Francisco Tejeda-Villarreal
+- Alyssa
+- Lucas
+- Grayson
+- Francisco
 
 ## Technologies
 - React
